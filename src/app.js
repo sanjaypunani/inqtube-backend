@@ -17,10 +17,10 @@ const config = {
     ping: 30,
     ping_timeout: 240,
   },
-  http: {
-    port: 8000,
-    allow_origin: "*",
-  },
+  // http: {
+  //   port: 8000,
+  //   allow_origin: "*",
+  // },
 };
 
 dotenv.config();
